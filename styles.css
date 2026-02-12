@@ -44,13 +44,12 @@ a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .information {
     text-align: center;
 }
-
 
 .information-text {
     font-size: 36px;
@@ -114,4 +113,48 @@ a {
 
 .card, .card-box {
     width: 130px;
+}
+
+.call-to-action {
+    align-self: center;
+}
+
+.cta-container {
+    width: 950px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.cta-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-primary { 
+    font-weight: 600;
+    color: #F9FAF8;
+}
+
+.cta-secondary {
+    font-weight: 50;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 5px 30px;
+    background-color: transparent;
+}
+
+.sign-up-button:hover {
+    cursor: pointer;
+    background-color: #639efc;
 }
