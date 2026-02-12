@@ -5,23 +5,22 @@ body {
     min-height: 200vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
 }
 
 .header {
     background-color: #1F2937;
+    padding: 0px 100px 200px 200px;
     display: flex;
     flex-direction: column;
-    padding: 0 200px;
-    height: 500px;
+    gap: 50px;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    padding: 35px 0;
 }
 
 .header-bottom {
@@ -67,7 +66,7 @@ body {
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    height: 80px;
+    padding: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,41 +94,15 @@ a {
 
 .information {
     text-align: center;
+    padding: 70px;
+    flex: auto;
 }
 
 .information-text {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 30px;
-}
-
-.quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1F2937;
-    background-color: #E5E7EB;
-    height: 400px;
-}
-
-.quote-container {
-    display: flex;
-    flex-direction: column;
-    width: 680px;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    align-self: center;
-}
-
-.quote-sayer {
-    font-size: 18px;
-    font-weight: 900;
-    margin-right: 25px;
-    align-self: flex-end;
+    margin-bottom: 30px;
 }
 
 .cards-container {
@@ -161,8 +134,41 @@ a {
     width: 130px;
 }
 
-.call-to-action {
+.quote {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
     align-self: center;
+}
+
+.quote-sayer {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 25px;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
 }
 
 .cta-container {
