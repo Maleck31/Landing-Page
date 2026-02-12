@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,11 +51,40 @@ a {
     text-align: center;
 }
 
+
 .information-text {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     margin: 30px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    align-self: center;
+}
+
+.quote-sayer {
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 25px;
+    align-self: flex-end;
 }
 
 .cards-container {
